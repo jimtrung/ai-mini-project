@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Lab Suite - Advanced Logic & Algorithms</title>
+  <meta name="description" content="A suite of AI and logic-based applications including Tic-Tac-Toe Minimax, Sudoku Solver, Spam Detector, and Smart Home Automation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="glass">
+      <h1 class="gradient-text" id="main-title">Hệ Thống AI Lab</h1>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button id="lang-toggle" class="btn-primary" style="padding: 0.4rem 0.8rem; background: var(--glass);">EN</button>
+        <nav id="main-nav">
+          <button data-module="home" class="nav-btn active" id="nav-home">Trang Chủ</button>
+          <button data-module="tic-tac-toe" class="nav-btn" id="nav-ttt">Cờ Caro AI</button>
+          <button data-module="sudoku" class="nav-btn" id="nav-sudoku">Giải Sudoku</button>
+          <button data-module="spam-detector" class="nav-btn" id="nav-spam">Chặn Thư Rác</button>
+          <button data-module="smart-home" class="nav-btn" id="nav-sh">Nhà Thông Minh</button>
+        </nav>
+      </div>
+    </header>
+    
+    <main id="content-area">
+      <!-- Content will be injected here -->
+    </main>
+
+    <footer class="glass">
+      <p>&copy; 2026 AI Lab Suite. All rights reserved. No emojis used in this interface.</p>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
